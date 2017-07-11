@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/build
     docker:
-      - image: quay.io/vektorcloud/base:3.6
+      - image: circleci/golang:latest
     steps:
       - checkout
       - setup_remote_docker:
