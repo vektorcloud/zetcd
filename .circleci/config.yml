@@ -1,6 +1,8 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/build
+    docker:
     steps:
       - checkout
       - setup_remote_docker:
