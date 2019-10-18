@@ -12,4 +12,4 @@ Zetcd serves an [Apache Zookeeper](https://zookeeper.apache.org) API backed by [
     # Launch zetcd
     docker run --rm -ti --net host quay.io/vektorcloud/zetcd --zddr 0.0.0.0:2181 --endpoints localhost:2379 -v 9 -logtostderr
 
-[circleci]: https://img.shields.io/circleci/project/github/vektorcloud/zetcd.svg "zetcd"
+[circleci]: https://img.shields.io/circleci/build/gh/vektorcloud/zetcd?color=1dd6c9&logo=CircleCI&logoColor=1dd6c9&style=for-the-badge "zetcd"
