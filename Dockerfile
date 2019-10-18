@@ -11,7 +11,7 @@ RUN go get github.com/coreos/zetcd/cmd/zetcd \
     && cd ../zkctl \
     && go install 
 
-FROM quay.io/vektorcloud/base:3.7
+FROM quay.io/vektorcloud/base:3.9
 
 COPY --from=build /go/bin/zetcd /usr/bin/
 COPY --from=build /go/bin/zkctl /usr/bin/
