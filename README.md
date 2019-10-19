@@ -1,6 +1,6 @@
 # Zetcd on Alpine
 
-![circleci][circleci]
+[![circleci][circleci]](https://circleci.com/gh/vektorcloud/zetcd)
 
 Zetcd serves an [Apache Zookeeper](https://zookeeper.apache.org) API backed by [Etcd](https://coreos.com/etcd/docs/latest/).
 
